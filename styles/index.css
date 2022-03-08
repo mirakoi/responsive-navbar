@@ -43,10 +43,8 @@ nav ul li a:hover {
   color: orange;
 }
 
-h2 {
-  font-size: 32px;
-  padding-left: 20px;
-  color: darkcyan;
+.logo-container {
+  padding-left: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,5 +58,9 @@ h2 {
   }
   nav li {
     padding: 10px;
+  }
+
+  .logo-container {
+    display: none;
   }
 }
